@@ -1,0 +1,32 @@
+{
+  "name": "UiPath_ReFrameWork-GenerateYearlyReport-Performer",
+  "description": "UiPath_ReFrameWork-GenerateYearlyReport-Performer",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.4.6884.25683]",
+    "UiPath.Mail.Activities": "[1.2.6863.29868]",
+    "UiPath.System.Activities": "[18.3.6877.28276]",
+    "UiPath.UIAutomation.Activities": "[18.3.6877.28298]",
+    "UiPath.WebAPI.Activities": "[1.5.0-alpha.179744]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "17.1",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  }
+}
